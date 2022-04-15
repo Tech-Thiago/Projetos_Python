@@ -1,0 +1,5 @@
+altura = int(input("Digite a altura da parede: "))
+largura = int(input("Digite a largura da parede: "))
+area = (altura * largura)
+tinta = (area / 2)
+print(f"A parede terá uma área de \033[1;33m{area}m² e utilizará \033[1;31m{tinta} litros de tinta.")

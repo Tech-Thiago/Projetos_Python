@@ -1,0 +1,6 @@
+n = str(input(f"Digite alguma coisa"))
+print(n.isalnum())
+print(n.isnumeric())
+print(n.isdecimal())
+print(n.isupper())
+print(n.islower())

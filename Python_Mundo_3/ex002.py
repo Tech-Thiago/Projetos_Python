@@ -1,0 +1,21 @@
+cont = ("Atlético-MG", "Flamengo", "Palmeiras", "Fortaleza", "Corinthians", "Bragantino",
+        "Fluminense", "América-MG", "Atlético-GO", "Santos", "Ceará SC", "Internacional", "São Paulo",
+        "Atletico-PR", "Cuiabá", "Juventude", "Gremio", "Bahia", "Sport Recife", "Chapecoense")
+
+print("=-=-" * 75)
+print("Tabela do Brasileirão".center(175))
+print("=-=-" * 75)
+print("Lista de times do Brasileirão: ", end="")
+print(cont)
+print("=-=-" * 75)
+print("Os 5 primeiros colocados são -> ", end="")
+print(cont[:5])
+print("=-=-" * 75)
+print("Os 4 ultimos colocados são -> ", end="")
+print(cont[-4:])
+print("=-=-" * 75)
+print("Lista alfabética dos times -> ", end="")
+print(sorted(cont))
+print("=-=-" * 75)
+print(f"A Chapecoense se encontra {cont.index('Chapecoense')+1}° posição")
+print("=-=-" * 75)
